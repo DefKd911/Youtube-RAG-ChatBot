@@ -11,7 +11,7 @@ from langchain_core.runnables import RunnableParallel, RunnablePassthrough, Runn
 from langchain_core.output_parsers import StrOutputParser
 
 # Set your Groq API key (for demo, you may want to use st.secrets or .env in production)
-os.environ["GROQ_API_KEY"] = ""
+os.environ["GROQ_API_KEY"] = "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"
 
 st.set_page_config(page_title="YouTube RAG Chatbot", layout="wide")
 st.title("YouTube Video RAG Chatbot")
